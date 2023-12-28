@@ -6,6 +6,11 @@ import TicTac from "../assets/New folder/Tic.png";
 import TodoList from "../assets/New folder/todo list.png";
 import SciCal from "../assets/New folder/Zeke Sci Calulator.png";
 import Country from "../assets/New folder/countryapp.png";
+import Zekeport from "../assets/New folder/zekeportfolio.png";
+import BackgroundChanger from "../assets/New folder/backgroundchanger001.png";
+import NextLogin from "../assets/New folder/nextjsloginpage001.png";
+import ReactSignUp from "../assets/New folder/reactsignup001.png"
+import ReactLogin from "../assets/New folder/reactloginpage001.png"
 
 const projects = [
     SimpleCal,
@@ -15,6 +20,11 @@ const projects = [
     SciCal,
     StudentGrade,
     Country,
+    Zekeport,
+    BackgroundChanger,
+    NextLogin,
+    ReactSignUp,
+    ReactLogin, 
 ];
 
 const Projects = () => {
@@ -40,6 +50,10 @@ const Projects = () => {
                                 <div className="absolute bottom-2 flex gap-x-3 underline text-white font-bold opacity-0 group-hover:opacity-100 transition-opacity">
                                     <a href={project.code} target="blank">
                                         Code
+                                    </a>
+
+                                    <a href={project.sample} target="blank">
+                                        Sample
                                     </a>
                                 </div>
                         </div>
